@@ -1,20 +1,20 @@
 import React from "react";
-import Forecast from "./Forecast";
+import "./Forecast.css";
 
-import "./WeatherForecast.css";
-
-export default function WeatherForecast() {
+export default function Forecast() {
   return (
-    <div className="container">
-      <div class="weather-forecast" id="forecast">
-        <div class="row">
-          <Forecast />
-          <Forecast />
-          <Forecast />
-          <Forecast />
-          <Forecast />
-          <Forecast />
-        </div>
+    <div class="col-sm-2">
+      <div class="weatherforecast-day">Mon</div>
+      <div class="weatherforecast-image">
+        <img
+          src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+          alt="sunny"
+        />
+      </div>
+      <br />
+      <div class="weatherforecast-temperature">
+        <span class="weatherforecast-temperature-max">22°</span>
+        <span class="weatherforecast-temperature-min"> 18°</span>
       </div>
     </div>
   );
