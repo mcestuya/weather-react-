@@ -21,30 +21,29 @@
   opacity: 0.5;
 }
 
-@media(max-width:860px){
-  .weatherforecast-image{
-        
+@media (max-width: 860px) {
+  .weatherforecast-image {
     display: block;
     margin: 0 auto;
-
-}
-.weatherforecast-temperature-max{
+  }
+  .weatherforecast-temperature-max {
     font-size: 20px;
-}
-.weatherforecast-temperature-min{
-font-size: 16px;
-opacity: 0.5;
-}
-.weatherforecast-day{
+  }
+  .weatherforecast-temperature-min {
+    font-size: 16px;
+    opacity: 0.5;
+  }
+  .weatherforecast-day {
     margin-bottom: 0;
     font-size: 18px;
     opacity: 0.9;
-}
-.weatherness{
+  }
+  .weatherness {
     padding: 10px 5px;
     border-radius: 40px;
     border: 1px solid blueviolet;
-}
-.weather-form{
+  }
+  .weather-form {
     margin-top: 10px;
+  }
 }
