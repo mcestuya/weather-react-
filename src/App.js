@@ -4,7 +4,7 @@ import Search from "./Search";
 import WeatherDisplay from "./WeatherDisplay";
 import WeatherForecast from "./WeatherForecast";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div class="container">
@@ -20,5 +20,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
